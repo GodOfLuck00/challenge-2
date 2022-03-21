@@ -1,89 +1,97 @@
 {
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
         
 }
 
 body {
-    color: #0d0369;
+    color: #07023b;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #aab7b8;
-}
-
-header {
-    padding: 0;
-    background-color: #aab7b8;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
     
-    size: 70px 100%;
 }
 
-header nav {
-    display: flex;
-        margin: 0;
-    background-color: #aab7b8;
-    border: 70px 100%;
-    
-    
-
-}
-.links {
-    align-self: space-between;
-}
-
-header h1 {
-    font-weight: bold;
-    font-size: 40px;
+.nav {
     color:#aab7b8;
-    margin: 3px 700px 0px 0px;
-    
-    
-}
-header nav ul {
+    padding-bottom: 10px;
+    background-color: #07023b;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    list-style: none;
+    align-content: center;
+    width: 100%;
+}
+
+.nav-name {
+    
+    background-color: #07023b;
+    padding-left: 15px;
+    padding-right: 699px;
+    display: inline-flex;
     
     
     
     
 }
 
+.nav-links {
+    list-style: none;    
+    padding-right: 0px;
+    display: inline-flex;
+    
+    
+    
+    
+
+}
+
+header h1 a {
+    font-weight: none;
+    font-size: 35px;
+    color:#aab7b8;
+        
+}
+
 header nav ul li a {
-    margin: 5px;
+    padding: 5px;
     font-weight: lighter;
     font-size: 22px;
-    align-self: flex-end;
-    
+    color: #aab7b8;
+        
 }
 
 
 .about-me {
-    
-    
-    font-size: 44px;
-    
+    font-size: 40px;
     background-color: #aab7b8;
+    display: flex;
+    
 }
 
-.about-me h1 {
-    margin: 4px 50px 4px 50px;
+.about-me-title {
+    padding: 0px 50px 0px 225px;
     display: flex;
-    flex-flow: column wrap;
-    border-left: 4px solid black;
+    flex-flow: wrap;
+    border-right: 8px solid rgb(226, 147, 42);
+    justify-content: flex-start;
+    flex: 1 20%;
+}
+.about-me-text {
+    padding: 0px 225px 0px 50px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-end;
+    flex: 1 80%;
+
 }
 
 .banner-image {
     
-    margin: 0 auto;
+    
 }
 
 .banner-image div img {
-    height: 250px;
+    height: 275px;
     width: 100%;
     object-fit: fill;
 
